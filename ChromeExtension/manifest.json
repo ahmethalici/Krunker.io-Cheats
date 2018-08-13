@@ -1,0 +1,22 @@
+{
+  "name": "Krunker.io cheats",
+  "version": "0.7.5",
+  "description": "Krunker.io chrome extension",
+  "homepage_url": "https://github.com/Najlepszy56/Krunker.io-Cheats",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "storage",
+    "*://*/*",
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "background"
+  ],
+  "web_accessible_resources": [
+    "game.js"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
